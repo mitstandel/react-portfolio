@@ -7,33 +7,13 @@ import './css/App.css';
 
 import { content } from "./content";
 import Portfolio from "./components/Portfolio";
+import Timeline from "./components/Timeline";
+import Team from "./components/Team";
 
 class App extends Component {
 
     constructor() {
         super();
-
-        this.state = {
-            robots: [],
-            searchField: ''
-        };
-    }
-
-    onSearchChange = (e) => {
-        this.setState({
-            searchField: e.target.value
-        });
-    }
-
-    componentDidMount() {
-        fetch('https://jsonplaceholder.typicode.com/users')
-        .then(response => {
-            return response.json();
-        }).then(users => {
-            this.setState({
-                robots: users
-            });
-        });
     }
 
     render() {
@@ -43,6 +23,8 @@ class App extends Component {
                 <Header />
                 <Services services={content.services} />
                 <Portfolio portfolio={content.portfolio} />
+                <Timeline timeline={content.about} />
+                <Team team={content.team} />
             </div>
         );
     }

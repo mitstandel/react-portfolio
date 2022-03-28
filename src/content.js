@@ -76,5 +76,55 @@ export const content = {
             'short': 'Lorem ipsum dolor sit amet consectetur.',
             'description': 'Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!'
         }
+    ],
+    about: [
+        {
+            'id': 1,
+            'name': 'Our Humble Beginnings',
+            'image': '1.jpg',
+            'year': '2009-2011',
+            'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!'
+        },
+        {
+            'id': 2,
+            'name': 'An Agency is Born',
+            'image': '2.jpg',
+            'year': 'March 2011',
+            'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!'
+        },
+        {
+            'id': 3,
+            'name': 'Transition to Full Service',
+            'image': '3.jpg',
+            'year': 'December 2015',
+            'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!'
+        },
+        {
+            'id': 4,
+            'name': 'Phase Two Expansion',
+            'image': '4.jpg',
+            'year': 'July 2020',
+            'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!'
+        }
+    ],
+    team: [
+        {
+            'id': 1,
+            'name': 'Parveen Anand',
+            'image': '1.jpg',
+            'designation': 'Lead Designer'
+        },
+        {
+            'id': 2,
+            'name': 'Diana Petersen',
+            'image': '2.jpg',
+            'designation': 'Lead Marketer'
+        },
+        {
+            'id': 3,
+            'name': 'Larry Parker',
+            'image': '3.jpg',
+            'designation': 'Lead Developer'
+        }
     ]
 };
