@@ -1,10 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
+import AppLogo from "../assets/img/navbar-logo.svg";
 
 const Navigation = () => {
+
+    const [headerClassName, setHeaderClassName] = useState('');
+
+    const handleScroll = (headerClassName) => {
+        if (headerClassName !== 'navbar-shrink' && window.pageYOffset >= 100) {
+            setHeaderClassName('navbar-shrink');
+        } else if (headerClassName === 'navbar-shrink' && window.pageYOffset < 100) {
+            setHeaderClassName('');
+        }
+    }
+
+    React.useEffect(() => {
+        window.onscroll = () => handleScroll(headerClassName);
+    }, [headerClassName]);
+
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <nav className={`navbar navbar-expand-lg navbar-dark fixed-top ${headerClassName}`} id="mainNav">
             <div className="container">
-                <a className="navbar-brand" href="#page-top"><img src={require('../assets/img/navbar-logo.svg')} alt="..." /></a>
+                <a className="navbar-brand" href="#page-top"><img src={AppLogo} alt="..." /></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i className="fas fa-bars ms-1"></i>

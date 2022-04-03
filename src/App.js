@@ -9,6 +9,8 @@ import { content } from "./content";
 import Portfolio from "./components/Portfolio";
 import Timeline from "./components/Timeline";
 import Team from "./components/Team";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 class App extends Component {
 
@@ -25,6 +27,8 @@ class App extends Component {
                 <Portfolio portfolio={content.portfolio} />
                 <Timeline timeline={content.about} />
                 <Team team={content.team} />
+                <Contact />
+                <Footer />
             </div>
         );
     }
