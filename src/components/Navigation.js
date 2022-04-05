@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Navbar, Nav, Container } from 'react-bootstrap';
 import AppLogo from "../assets/img/navbar-logo.svg";
 
 const Navigation = () => {
@@ -18,24 +19,23 @@ const Navigation = () => {
     }, [headerClassName]);
 
     return (
-        <nav className={`navbar navbar-expand-lg navbar-dark fixed-top ${headerClassName}`} id="mainNav">
-            <div className="container">
-                <a className="navbar-brand" href="#page-top"><img src={AppLogo} alt="..." /></a>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i className="fas fa-bars ms-1"></i>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarResponsive">
-                    <ul className="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li className="nav-item"><a className="nav-link" href="#services">Services</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#portfolio">Portfolio</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#team">Team</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <>
+            <Navbar collapseOnSelect fixed="top" bg="dark" variant="dark" expand="lg" className={`${headerClassName}`} id="mainNav">
+                <Container>
+                    <a className="navbar-brand" href="#page-top"><img src={AppLogo} alt="..." /></a>
+                    <Navbar.Toggle aria-controls="navbarResponsive" />
+                    <Navbar.Collapse className="collapse navbar-collapse" id="navbarResponsive">
+                        <Nav className="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                            <Nav.Link className="nav-link" href="#services">Services</Nav.Link>
+                            <Nav.Link className="nav-link" href="#portfolio">Portfolio</Nav.Link>
+                            <Nav.Link className="nav-link" href="#about">About</Nav.Link>
+                            <Nav.Link className="nav-link" href="#team">Team</Nav.Link>
+                            <Nav.Link className="nav-link" href="#contact">Contact</Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
+        </Navbar>
+        </>
     );
 }
 
