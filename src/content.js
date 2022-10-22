@@ -4,7 +4,7 @@ export const content = {
     services: [
         {
             'id': 1,
-            'title': 'E-Commerce',
+            'title': 'IT Development',
             'icon': faShoppingCart,
             'short': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.'
         },
