@@ -1,8 +1,8 @@
 {
-  "name": "react-portfolio",
+  "name": "tapverse-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://mitstandel.github.io/react-portfolio",
+  "homepage": "http://tapverse.com.au",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-brands-svg-icons": "^6.1.1",

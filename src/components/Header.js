@@ -4,9 +4,9 @@ const Header = () => {
     return (
         <header className="masthead">
             <div className="container">
-                <div className="masthead-subheading">Welcome To Our Studio!</div>
-                <div className="masthead-heading text-uppercase">It's Nice To Meet You</div>
-                <a className="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
+                <div className="masthead-subheading">&nbsp;</div>
+                <div className="masthead-heading text-uppercase">&nbsp;</div>
+                <a className="btn btn-primary btn-xl text-uppercase" href="#">Coming Soon</a>
             </div>
         </header>
     );

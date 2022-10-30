@@ -22,8 +22,8 @@ const Navigation = () => {
         <>
             <Navbar collapseOnSelect fixed="top" bg="dark" variant="dark" expand="lg" className={`${headerClassName}`} id="mainNav">
                 <Container>
-                    <a className="navbar-brand" href="#page-top"><img src={AppLogo} alt="..." /></a>
-                    <Navbar.Toggle aria-controls="navbarResponsive" />
+                    <a className="navbar-brand" href="#page-top">Tapverse</a>
+                    {/* <Navbar.Toggle aria-controls="navbarResponsive" />
                     <Navbar.Collapse className="collapse navbar-collapse" id="navbarResponsive">
                         <Nav className="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                             <Nav.Link className="nav-link" href="#services">Services</Nav.Link>
@@ -32,7 +32,7 @@ const Navigation = () => {
                             <Nav.Link className="nav-link" href="#team">Team</Nav.Link>
                             <Nav.Link className="nav-link" href="#contact">Contact</Nav.Link>
                         </Nav>
-                    </Navbar.Collapse>
+                    </Navbar.Collapse> */}
                 </Container>
         </Navbar>
         </>

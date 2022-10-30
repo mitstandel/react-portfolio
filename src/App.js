@@ -23,12 +23,12 @@ class App extends Component {
             <div className="tc">
                 <Navigation />
                 <Header />
-                <Services services={content.services} />
+                {/* <Services services={content.services} />
                 <Portfolio portfolio={content.portfolio} />
                 <Timeline timeline={content.about} />
                 <Team team={content.team} />
                 <Contact />
-                <Footer />
+                <Footer /> */}
             </div>
         );
     }
