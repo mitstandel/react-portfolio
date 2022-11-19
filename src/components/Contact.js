@@ -6,7 +6,7 @@ const Contact = () => {
             <div className="container">
                 <div className="text-center">
                     <h2 className="section-heading text-uppercase">Contact Us</h2>
-                    <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 className="section-subheading text-white">Get in touch with us.</h3>
                 </div>
                 <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                     <div className="row align-items-stretch mb-5">
