@@ -2,19 +2,19 @@
     "services": [
         {
             "id": 1,
-            "title": "IT Development 1",
+            "title": "IT Development",
             "icon": "faShoppingCart",
             "short": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         },
         {
             "id": 2,
-            "title": "Responsive Design 2",
+            "title": "Responsive Design",
             "icon": "faLaptop",
             "short": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         },
         {
             "id": 3,
-            "title": "Web Security 3",
+            "title": "Web Security",
             "icon": "faLock",
             "short": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         }
