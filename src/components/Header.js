@@ -6,7 +6,7 @@ const Header = () => {
             <div className="container">
                 <div className="masthead-subheading">&nbsp;</div>
                 <div className="masthead-heading text-uppercase">&nbsp;</div>
-                <a className="btn btn-primary btn-xl text-uppercase" href="#">Coming Soon</a>
+                <a className="btn btn-primary btn-xl text-uppercase" href="#contact">Get In Touch</a>
             </div>
         </header>
     );

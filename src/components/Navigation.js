@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Navbar, Nav, Container } from 'react-bootstrap';
-import AppLogo from "../assets/img/navbar-logo.svg";
+import { Navbar, Container } from 'react-bootstrap';
+// import AppLogo from "../assets/img/navbar-logo.svg";
 
 const Navigation = () => {
 

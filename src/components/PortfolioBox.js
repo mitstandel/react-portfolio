@@ -3,11 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 
 class PortfolioBox extends Component {
-
-    constructor(props) {
-        super(props);
-    };
-
     render() {
         return (
             <div className="col-lg-4 col-sm-6">
